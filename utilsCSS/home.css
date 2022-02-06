@@ -1,6 +1,6 @@
 @import url(./Reset.css);
 * {
-  background-color: black;
+  background-color: #151515;
   color: var(--font-on-black);
   font-family: var(--font-sans);
 }

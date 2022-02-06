@@ -7,7 +7,7 @@
 
 body {
   font-family: "roboto";
-  background-color: black;
+  background-color: #151515;
 }
 
 a {
@@ -117,12 +117,10 @@ a:hover {
   padding: 2rem;
   background: #f5f7f9;
   border-radius: 8px;
-  box-shadow: 1px 3px 3px 15px rgb(219, 219, 219, 0.06);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  border: 1px solid rgb(226, 226, 226);
+  gap: 1rem; 
   overflow: hidden;
 }
 .code-example {
