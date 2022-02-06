@@ -1,0 +1,116 @@
+@import url(./variables.css);
+.shadow {
+  box-shadow: rgb(0 0 0 / 24%) 0px 4px 9px !important;
+}
+.bg-primary {
+  background: var(--primary-color) !important;
+}
+.bg-secondary {
+  background: var(--secondary-color) !important;
+}
+.bg-success {
+  background: var(--success-color) !important;
+}
+.bg-success-light {
+  background: var(--success-light-color) !important;
+}
+.bg-waring {
+  background: var(--warning-color) !important;
+}
+.bg-waring-light {
+  background: var(--warning-light-color) !important;
+}
+.bg-danger {
+  background: var(--danger-color) !important;
+}
+.bg-danger-light {
+  background: var(--danger-light-color) !important;
+}
+.bg-info {
+  background: var(--info-light-color) !important;
+}
+
+.primary {
+  color: var(--primary-color) !important;
+}
+.secondary {
+  color: var(--secondary-color) !important;
+}
+.success {
+  color: var(--success-color) !important;
+}
+.success-light {
+  color: var(--success-light-color) !important;
+}
+.waring {
+  color: var(--warning-color) !important;
+}
+.waring-light {
+  color: var(--warning-light-color) !important;
+}
+.danger {
+  color: var(--danger-color) !important;
+}
+.danger-light {
+  color: var(--danger-light-color) !important;
+}
+.info {
+  color: var(--info-light-color) !important;
+}
+
+.outline {
+  color: grey !important;
+  background-color: transparent !important;
+  border: 2px solid grey !important;
+}
+
+.outline-primary {
+  color: var(--primary-color) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.outline-danger {
+  color: var(--danger-color) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--danger-color) !important;
+}
+
+.outline-success {
+  color: var(--success-color) !important;
+  background-color: transparent !important;
+  border: 2px solid var(--success-color) !important;
+}
+
+.radius-xs {
+  border-radius: 0.5rem !important;
+}
+
+.radius-s {
+  border-radius: 1rem !important;
+}
+.radius-m {
+  border-radius: 1.5rem !important;
+}
+.radius-full {
+  border-radius: 999px !important;
+}
+
+.spacing-xs {
+  padding: 0.5rem !important;
+}
+.spacing-s {
+  padding: 1rem !important;
+}
+.spacing-m {
+  padding: 1.5rem !important;
+}
+.spacing-l {
+  padding: 2rem !important;
+}
+.spacing-xl {
+  padding: 2.5rem !important;
+}
+.spacing-xxl {
+  padding: 4rem !important;
+}

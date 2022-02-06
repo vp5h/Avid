@@ -1,0 +1,17 @@
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-color: #333;
+  --primary-color: #4f46e5;
+  --secondary-color: #f3f4f6;
+  --danger-color: #c53030;
+  --success-color: #2f855a;
+  --warning-color: #fea119;
+  --danger-light-color: #fef2f2;
+  --success-light-color: #ecfdf5;
+  --warning-light-color: #fffbeb;
+  --info-light-color: #eff6ff;
+
+  --white-color: #ffffff;
+  --hover-grey: #f5f5f5;
+  --font-on-black: #888;
+}

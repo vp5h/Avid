@@ -1,0 +1,38 @@
+@import url(./Reset.css);
+* {
+  background-color: black;
+  color: var(--font-on-black);
+  font-family: var(--font-sans);
+}
+
+.logo {
+  height: 15vh;
+  padding-bottom: 2rem;
+}
+.index-main {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+
+.highlight {
+  color: var(--hover-grey);
+  text-decoration: none;
+}

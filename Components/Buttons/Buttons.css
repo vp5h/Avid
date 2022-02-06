@@ -1,0 +1,31 @@
+.btn {
+  border: none;
+  padding: 0.6rem 1rem;
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: grey;
+  font-family: "roboto";
+  font-size: 1rem;
+  height: 3rem;
+  box-shadow: rgb(0 0 0 / 17%) 0px 4px 9px;
+}
+
+.icon {
+  color: var(--primary-color) !important;
+  font-size: 1.5rem;
+  background: none;
+  box-shadow: none;
+}
+i {
+  color: inherit;
+}
+.icon-Rounded {
+  background: var(--primary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  height: auto;
+  box-shadow: 1px 1px 2px 1px rgba(1, 1, 1, 0.2);
+}
