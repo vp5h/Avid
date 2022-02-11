@@ -1,0 +1,30 @@
+@import url(../Avatar/Avatar.css);
+
+.badge-container {
+  position: relative;
+  width: max-content;
+}
+
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  color: white;
+  font-weight: 900;
+  height: 18px;
+  width: 18px;
+  border: none;
+  background-color: var(--danger-color);
+  border-radius: 50%;
+  top: 52px;
+  right: 3px;
+}
+
+.badge.top {
+  top: -4px;
+  right: -9px;
+}
+
+

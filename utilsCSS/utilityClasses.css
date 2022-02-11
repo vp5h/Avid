@@ -114,3 +114,22 @@
 .spacing-xxl {
   padding: 4rem !important;
 }
+
+.font-xs {
+  font-size: 0.5rem !important;
+}
+.font-s {
+  font-size: 1rem !important;
+}
+.font-m {
+  font-size: 1.5rem !important;
+}
+.font-l {
+  font-size: 2 rem !important;
+}
+.font-xl {
+  font-size: 2.5rem !important;
+}
+.font-xxl {
+  font-size: 4rem !important;
+}
