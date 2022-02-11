@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../Assets/light.png">
+    <link rel="stylesheet" href="../../utilsCSS/getting-started.css" />
+    <link rel="stylesheet" href="./Buttons.css" />
+    <script src="https://kit.fontawesome.com/e06444868d.js" crossorigin="anonymous"></script>
+    <title>Buttons | Avid</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html">
+                <img class="logo" src="../../Assets/light.png" />
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <a href="/index.html">
+                    <li class="highlight">Home</li>
+                </a>
+                <a href="./getting-started.html">
+                    <li class="highlight">Documentation</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="documentation">
+        <aside class="sidebar">
+            <div class="list-topic">
+                <h4 class="highlight">Get Started</h4>
+            </div>
+            <ul>
+                <li><a href="../../getting-started.html">Introduction</a></li>
+                <!-- <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li> -->
+            </ul>
+
+            <div class="list-topic">
+                <h4 class="highlight">Components</h4>
+            </div>
+            <ul>
+                <li><a href="../Cards/card.html">Card</a></li>
+                <!-- <li><a href="./Components/Avatar/avatar.html">Avatar</a></li>
+          <li><a href="./Components/">Alert</a></li>
+          <li><a href="./Components/">Badge</a></li> -->
+                <li><a href="">Button</a></li>
+                <!-- <li><a href="./Components/>Image</a></li>
+          <li><a href="./Components/">Input</a></li>
+          <li><a href="./Components/>Navigation</a></li>
+          <li><a href="./Components/">Snackbar</a></li> -->
+            </ul>
+        </aside>
+        <main class="main-content">
+            <div class="content-head">
+                <h2 class="highlight"> Buttons</h2>
+            </div>
+            <div class="content">
+                <p>
+                    Buttons are simple clickable units.
+                </p>
+            </div>
+
+
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight"> Normal Buttons</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+
+                        <button class="btn ">Default</button>
+                        <button class="btn bg-primary ">Primary</button>
+                        <button class="btn bg-success">Success</button>
+                        <button class="btn bg-danger">Danger</button>
+                    </div>
+                    <iframe class="code-example"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520bg-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520bg-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520bg-danger%2522%253EDanger%253C%252Fbutton%253E"
+                        style="height: 149px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight"> Outined Buttons</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+
+                        <button class="btn outline shadow">Default</button>
+                        <button class="btn primary-outline">Primary</button>
+                        <button class="btn outline-success">Success</button>
+                        <button class="btn outline-danger">Danger</button>
+                    </div>
+                    <iframe class="code-example"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253EDefault%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520outline-danger%2522%253EDanger%253C%252Fbutton%253E"
+                        style="height: 149px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight"> Icons and Rounded Buttons</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+
+                        <button class="btn icon">
+                            <i class="fas fa-trash"></i>
+                        </button>
+
+                        <button class="btn icon  ">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button class="btn icon-Rounded success bg-info">
+                            <i class="fas fa-pen"></i>
+                        </button>
+                        <button class="btn icon-Rounded">
+                            <i class="fas fa-pen"></i>
+                        </button>
+
+                        <button class="btn icon-Rounded bg-danger">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                    <iframe class="code-example"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520icon%2520%2520%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-camera%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520icon-Rounded%2520success%2520bg-info%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520icon-Rounded%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520icon-Rounded%2520bg-danger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                        style=" height: 430px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </main>
+
+    </section>
+</body>
+
+</html>
+
+
+</html>
