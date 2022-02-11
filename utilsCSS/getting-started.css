@@ -166,6 +166,9 @@ iframe {
     padding-top: 0rem;
     padding-left: 0rem;
   }
+  .example{
+    justify-content: flex-start;
+  }
 }
 
 /*Scrollbar design*/
