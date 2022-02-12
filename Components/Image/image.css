@@ -1,0 +1,22 @@
+.sq-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+  
+ 
+  .round-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .rsp-img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .img-container {
+    width: 70%;
+  }
