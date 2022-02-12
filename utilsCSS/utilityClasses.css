@@ -1,135 +1,135 @@
 @import url(./variables.css);
 .shadow {
-  box-shadow: rgb(0 0 0 / 24%) 0px 4px 9px !important;
+  box-shadow: rgb(0 0 0 / 24%) 0px 4px 9px  ;
 }
 .bg-primary {
-  background: var(--primary-color) !important;
+  background: var(--primary-color)  ;
 }
 .bg-secondary {
-  background: var(--secondary-color) !important;
+  background: var(--secondary-color)  ;
 }
 .bg-success {
-  background: var(--success-color) !important;
+  background: var(--success-color)  ;
 }
 .bg-success-light {
-  background: var(--success-light-color) !important;
+  background: var(--success-light-color)  ;
 }
 .bg-waring {
-  background: var(--warning-color) !important;
+  background: var(--warning-color)  ;
 }
 .bg-waring-light {
-  background: var(--warning-light-color) !important;
+  background: var(--warning-light-color)  ;
 }
 .bg-danger {
-  background: var(--danger-color) !important;
+  background: var(--danger-color)  ;
 }
 .bg-danger-light {
-  background: var(--danger-light-color) !important;
+  background: var(--danger-light-color)  ;
 }
 .bg-info {
-  background: var(--info-light-color) !important;
+  background: var(--info-light-color)  ;
 }
 
 .primary {
-  color: var(--primary-color) !important;
+  color: var(--primary-color)  ;
 }
 .secondary {
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color)  ;
 }
 .success {
-  color: var(--success-color) !important;
+  color: var(--success-color)  ;
 }
 .success-light {
-  color: var(--success-light-color) !important;
+  color: var(--success-light-color)  ;
 }
 .waring {
-  color: var(--warning-color) !important;
+  color: var(--warning-color)  ;
 }
 .waring-light {
-  color: var(--warning-light-color) !important;
+  color: var(--warning-light-color)  ;
 }
 .danger {
-  color: var(--danger-color) !important;
+  color: var(--danger-color)  ;
 }
 .danger-light {
-  color: var(--danger-light-color) !important;
+  color: var(--danger-light-color)  ;
 }
 .info {
-  color: var(--info-light-color) !important;
+  color: var(--info-light-color)  ;
 }
 
 .outline {
-  color: grey !important;
-  background-color: transparent !important;
-  border: 2px solid grey !important;
+  color: grey  ;
+  background-color: transparent  ;
+  border: 2px solid grey  ;
 }
 
 .outline-primary {
-  color: var(--primary-color) !important;
-  background-color: transparent !important;
-  border: 2px solid var(--primary-color) !important;
+  color: var(--primary-color)  ;
+  background-color: transparent  ;
+  border: 2px solid var(--primary-color)  ;
 }
 
 .outline-danger {
-  color: var(--danger-color) !important;
-  background-color: transparent !important;
-  border: 2px solid var(--danger-color) !important;
+  color: var(--danger-color)  ;
+  background-color: transparent  ;
+  border: 2px solid var(--danger-color)  ;
 }
 
 .outline-success {
-  color: var(--success-color) !important;
-  background-color: transparent !important;
-  border: 2px solid var(--success-color) !important;
+  color: var(--success-color)  ;
+  background-color: transparent  ;
+  border: 2px solid var(--success-color)  ;
 }
 
 .radius-xs {
-  border-radius: 0.5rem !important;
+  border-radius: 0.5rem  ;
 }
 
 .radius-s {
-  border-radius: 1rem !important;
+  border-radius: 1rem  ;
 }
 .radius-m {
-  border-radius: 1.5rem !important;
+  border-radius: 1.5rem  ;
 }
 .radius-full {
-  border-radius: 999px !important;
+  border-radius: 999px  ;
 }
 
 .spacing-xs {
-  padding: 0.5rem !important;
+  padding: 0.5rem  ;
 }
 .spacing-s {
-  padding: 1rem !important;
+  padding: 1rem  ;
 }
 .spacing-m {
-  padding: 1.5rem !important;
+  padding: 1.5rem  ;
 }
 .spacing-l {
-  padding: 2rem !important;
+  padding: 2rem  ;
 }
 .spacing-xl {
-  padding: 2.5rem !important;
+  padding: 2.5rem  ;
 }
 .spacing-xxl {
-  padding: 4rem !important;
+  padding: 4rem  ;
 }
 
 .font-xs {
-  font-size: 0.5rem !important;
+  font-size: 0.5rem  ;
 }
 .font-s {
-  font-size: 1rem !important;
+  font-size: 1rem  ;
 }
 .font-m {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem  ;
 }
 .font-l {
-  font-size: 2 rem !important;
+  font-size: 2 rem  ;
 }
 .font-xl {
-  font-size: 2.5rem !important;
+  font-size: 2.5rem  ;
 }
 .font-xxl {
-  font-size: 4rem !important;
+  font-size: 4rem  ;
 }
