@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../Assets/light.png" alt="icon">
+    <link rel="stylesheet" href="../../utilsCSS/getting-started.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../../utilsCSS/utilityClasses.css" />
+    <script src="https://kit.fontawesome.com/e06444868d.js" crossorigin="anonymous"></script>
+    <title>Inputs | Avid</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="/index.html">
+                <img class="logo" src="../../Assets/light.png" alt="logo" />
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <a href="/index.html">
+                    <li class="highlight">Home</li>
+                </a>
+                <a href="./getting-started.html">
+                    <li class="highlight">Documentation</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="documentation">
+        <aside class="sidebar">
+            <div class="list-topic">
+                <h4 class="highlight">Get Started</h4>
+            </div>
+            <ul>
+                <li><a href="../../getting-started.html">Introduction</a></li>
+                <!-- <li><a href="../Colors/colors.html">Colors</a></li>
+          <li><a href="../Typography/typography.html">Typography</a></li> -->
+            </ul>
+
+            <div class="list-topic">
+                <h4 class="highlight">Components</h4>
+            </div>
+            <ul>
+                <li><a href="../Cards/card.html">Card</a></li>
+                <li><a href="../Avatar/avatar.html">Avatar</a></li>
+                <!-- <li><a href="./Components/">Alert</a></li> -->
+                <li><a href="../Badge/badge.html">Badge</a></li>
+                <li><a href="../Buttons/buttons.html">Button</a></li>
+                <!-- <li><a href="./Components/>Image</a></li> -->
+                <li><a href="">Input</a></li>
+                <!-- <li><a href="./Components/>Navigation</a></li>
+          <li><a href="./Components/">Snackbar</a></li> -->
+            </ul>
+        </aside>
+        <main class="main-content">
+            <div class="content-head">
+                <h2 class="highlight"> Inputs</h2>
+            </div>
+            <div class="content">
+                <p>
+                    Simple input fields
+                </p>
+            </div>
+
+
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight">Input Group</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+                        <div class="input-group">
+                            <label for="Username">Username</label>
+                            <input type="text" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="text" />
+                        </div>
+
+                    </div>
+                    <iframe class="code-example"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522Username%2522%253EUsername%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E"
+                        style="height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight">Success Inputs</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+                        <div class="input-group success-input">
+                            <label for="">Password <i class="fas fa-check"></i></label>
+                            <input type="text" />
+                            <div>Valid Password</div>
+                        </div>
+
+                    </div>
+                    <iframe class="" code-example
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520Password%2520%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%253EValid%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style=" height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="content-warp">
+                <div class="content-head">
+                    <h2 class="highlight">Error Inputs</h2>
+                </div>
+                <div class="content">
+
+                    <div class="example">
+                        <div class="input-group danger-input">
+                            <label for="">Password <i class="fas fa-cross"></i></label>
+                            <input type="text" />
+                            <div>Invalid Password</div>
+                        </div>
+
+                    </div>
+                    <iframe class="code-example"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=auto&width=680&ds=true&dsyoff=31px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2520danger-input%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%253E%250A%2520%2520%2520%2520Password%2520%253Ci%2520class%253D%2522fas%2520fa-cross%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253Cdiv%253EInvalid%2520Password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style=" height: 207px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </div>
+
+
+        </main>
+
+    </section>
+</body>
+
+</html>

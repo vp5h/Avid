@@ -1,0 +1,12 @@
+.alert {
+  margin: 0.3rem auto;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 100%;
+  color: var(--white-color);
+  border: 1px solid rgb(218, 218, 218);
+}
+strong {
+  color: inherit;
+}

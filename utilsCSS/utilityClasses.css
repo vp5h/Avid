@@ -133,3 +133,7 @@
 .font-xxl {
   font-size: 4rem  ;
 }
+
+.col-dir{
+  flex-direction: column
+}
