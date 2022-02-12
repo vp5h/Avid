@@ -167,6 +167,12 @@ iframe {
     padding-left: 0rem;
   }
   .example{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .example{
     justify-content: flex-start;
   }
 }
