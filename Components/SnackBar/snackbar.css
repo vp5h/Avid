@@ -9,6 +9,7 @@
     justify-content: space-around;
     align-items: center;
     visibility: hidden;
+    cursor: pointer;
     box-shadow: 2px 2px 8px 5px rgba(161, 161, 161, 0.09);
   }
   span{
