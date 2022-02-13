@@ -1,0 +1,75 @@
+h1,
+.h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem ;
+}
+
+h5,
+.h5 {
+  font-size: 1rem ;
+}
+
+h6,
+.h6 {
+  font-size: 0.8 rem;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-strike{
+    text-decoration: line-through;
+}
+
+.txt-underline{
+    text-decoration: underline;
+}
+
+.font-light{
+    font-weight: 300;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-semibold{
+    font-weight: 600;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.font-bolder{
+    font-weight: 900;
+}
+.align-demo{
+    width: 100%;
+}
