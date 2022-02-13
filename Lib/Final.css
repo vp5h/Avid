@@ -1,2 +1,12 @@
 @import url(../utilsCSS/Reset.css);
-@import url(../Components/Cards/Cards.css)
+@import url(../Components/Cards/Cards.css);
+@import url(../Components/Alert/alert.css);
+@import url(../Components/Avatar/Avatar.css);
+@import url(../Components/Badge/badge.html);
+@import url(../Components/Buttons/buttons.css);
+@import url(../Components/Image/image.css);
+@import url(../Components/Input/input.css);
+@import url(../Components/Navigation/navigation.css);
+@import url(../Components/SnackBar/snackbar.css);
+@import url(../Components/Typography/typography.html);
+@import url(../utilsCSS/utilityClasses.css);
